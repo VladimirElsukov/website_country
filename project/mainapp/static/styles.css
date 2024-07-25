@@ -1,0 +1,22 @@
+
+.container-fluid2, .card {
+    width: 80%;
+    /* Пример ширины - вы можете указать любое значение в процентах, пикселях или других единицах измерения */
+    margin: 0 auto;
+    /* Для центрирования по горизонтали */
+    align-items: center;
+    background-color: #FBF5E5;
+}
+
+
+h1 {
+    text-align: center;  
+}
+
+.fon {
+    background-color: #FAEEDD;
+}
+
+.card-img-top {
+    height: 300px;
+}

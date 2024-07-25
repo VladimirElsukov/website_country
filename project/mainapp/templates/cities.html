@@ -1,0 +1,109 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block content %}
+
+  <h1>{{ greeting }}</h1>
+
+  <div class="container text-center">
+    <div class="row">    
+      <div class="col">
+        <div class="card" style="width: 25rem;">
+          <img src="{% static 'img/strasburg.jpeg' %}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Страсбург</p>
+        </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/kalmar.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Кольмар</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/louvr.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Лувр</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="row">    
+      <div class="col">
+        <div class="card" style="width: 25rem;">
+          <img src="{% static 'img/parisf.jpg' %}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Париж</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/marseille.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Марсель</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/nicca.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Ницца</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="row">    
+      <div class="col">
+        <div class="card" style="width: 25rem;">
+          <img src="{% static 'img/lion.webp' %}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">Лион</p>
+        </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/kan.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Кан</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="col">
+          <div class="card" style="width: 25rem;">
+            <img src="{% static 'img/antibes.jpg' %}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">Антиб</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+</div>
+
+{% endblock %}
